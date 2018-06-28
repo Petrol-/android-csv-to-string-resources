@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AndroidToCSV": {
+      "commandName": "Project",
+      "commandLineArgs": "test.csv"
+    }
+  }
+}

@@ -1,3 +1,5 @@
+See https://github.com/Petrol-/android-csv-to-string-resources
+
 # android-csv-tostring-resources
 
 This project is an utility app converting a CSV file to a strings.xml for Android.

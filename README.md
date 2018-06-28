@@ -30,7 +30,7 @@ cancel;Cancel
 
 ## App usage (Windows)
 ```
-AndroidToCSV.exe test.csv
+AndroidToCSV.exe exemple.csv
 ```
 
 The tool will create an output folder and generate the file strings.xml inside.

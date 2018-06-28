@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Reflection.Metadata.Ecma335;
 using System.Text;
 
 namespace AndroidToCSV
@@ -19,8 +18,10 @@ namespace AndroidToCSV
                 Console.WriteLine("The CSV file must of the form KEY;VALUE");
                 return;
             }
+
+            Directory.CreateDirectory("output");
             var csvPath = Path.GetFullPath(args[0]);
-            using (var file = new StreamWriter(File.OpenWrite("string.xml")))
+            using (var file = new StreamWriter(File.OpenWrite("output\\string.xml")))
             {
                 using (var sr = new StreamReader(csvPath, Encoding.UTF8))
                 {

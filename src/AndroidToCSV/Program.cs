@@ -21,7 +21,7 @@ namespace AndroidToCSV
 
             Directory.CreateDirectory("output");
             var csvPath = Path.GetFullPath(args[0]);
-            using (var file = new StreamWriter(File.OpenWrite("output\\string.xml")))
+            using (var file = new StreamWriter(File.OpenWrite("output\\strings.xml")))
             {
                 using (var sr = new StreamReader(csvPath, Encoding.UTF8))
                 {
